@@ -1,5 +1,7 @@
 # Markov Chain Monte Carlo Algorithm for Taylor Glacier 14C data
 
+Forked version from Michael Dyonisius.
+
 This readme file presents basic descriptions for the Markov Chain Monte Carlo (MCMC) algorithm written in MATLAB. The MCMC method is used to constrain two parameters in cosmogenic 14C production model by muons. For simplicity, the two model parameters that are optimized with the MCMC method are &quot;_fneg_&quot; and &quot;_ffast_&quot; – corresponding scaling factors for negative muon capture and fast muon reaction that are constant with respect to depths. The MCMC method aims to optimize these 2 parameters given the observations – which in this case represent 14 total 14C measurements from 7 unique depth levels (6.85m, 15m, 19.5m, 40m, 51m, 61.5m, 72m) obtained from ice cores drilled in Taylor Glacier, Antarctica.
 
 ## File descriptions
